@@ -1,0 +1,63 @@
+  /* home-img */
+  .home-img{
+    background-image: url('../week3-4/home-header.png');
+    /* width: 100%; */
+    /* height: 787px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.home-container{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.home-title{
+    padding-top: 296px;
+    padding: 296px 0px;
+    color:#650300;
+}
+.home-h1{
+    font-size: 36px;
+    text-align: right;
+}
+.home-h2{
+    font-size: 64px;
+    font-weight: bold;
+}
+.a-box{
+    margin-top: 4px;
+    text-align: right;
+}
+.home-a{
+    display: inline-block;
+    font-size: 20px;
+    padding: 6px 12px;
+    color: #FFFFFF;
+    
+}
+
+@media (max-width: 768px){
+    .home-img{
+        max-width: 100%;
+        background-image: url('../week3-4/home-header-sm.png');
+    }
+}
+
+@media (max-width: 475px){
+    .home-container{
+        max-width: 100%;
+    }
+    .home-h1{
+        font-size: 16px;
+    }
+    .home-h2{
+        font-size: 24px;
+    }
+
+}
+@media (max-width: 375px) {
+    .home-container{
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,84 @@
+ /* contact */
+ .contact{
+    padding: 80px 0px;
+}
+.contact-container >h2{
+   
+    font-size: 48px;
+    font-weight: bold;
+    color: #650300;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.form{
+    width: 50%;
+    margin: 0 auto;
+}
+.form > p{
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+.form-label{
+    display: block;
+}
+.form-input{
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    background-color: transparent;
+    padding: 6px 12px;
+    border: 1px solid #000000;
+}
+.form-text{
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    background-color: transparent;
+    padding: 6px 12px;
+    border: 1px solid #000000;
+    resize: none;
+    height: 136px;
+}
+
+.check-div{
+    display: flex;
+    align-items: start;
+    margin-bottom: 48px;
+}
+.checkbox{
+    margin: 4px;
+    width: 20px;
+    height: 20px;
+    background: #000;
+    /* accent-color: #aa0601; */
+}
+.form-btn{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 416px;
+    color:#FFFFFF;
+    font-weight: bold;
+    padding: 16px 0px;
+    background: #AA0601 ;
+}
+
+
+@media (max-width: 768px){
+    .contact-container {
+        max-width: 100%;
+    }
+   
+}
+@media (max-width: 475px){
+    .contact-container{
+        max-width: 100%;
+    }
+
+
+}
+@media (max-width: 375px) {
+    .contact-container{
+        max-width: 100%;
+    }
+}

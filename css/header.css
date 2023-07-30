@@ -1,0 +1,85 @@
+ /* header */
+ .header{
+    padding: 16px 0px;/*圖片距離 header 上邊界16px，下邊界15.43 取16*/
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    
+}
+.logo-box{
+    width: 80px;
+}
+.logo-box>a{
+    display: block;
+}
+
+.navbar-nav{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* margin: 0px -32px; */
+}
+.nav-item{
+    padding: 9px 32px;/*距離header，上下邊界25px，又header已有padding 16px 所以 25-16=9px*/
+}
+.nav-item>a{
+    display: block;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+@media (max-width: 768px){
+    .nav-item{
+        padding: 9px 16px;/*距離header，上下邊界25px，又header已有padding 16px 所以 25-16=9px*/
+    }
+    .nav-item>a{
+        display: block;
+        font-size: 18px;
+        color: #FFFFFF;
+    }
+  
+}
+
+@media (max-width: 520px){
+    .nav-item>a{
+        display: block;
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+  
+}
+@media (max-width: 475px){
+
+    .header{
+        max-width: 100%;
+        padding-bottom: 0px;
+    }
+  .header-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .navbar-nav{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 16px;
+  }
+  .logo-box{
+    padding-left: 16px;
+  }
+  .nav-item{
+    width: 50%;
+    text-align: center;
+    border: 1px solid #ffffff;
+  }
+}
+@media (max-width: 375px) {
+    .header-container{
+        max-width: 100%;
+    }
+}
+
+

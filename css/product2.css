@@ -1,0 +1,74 @@
+  /*product2*/
+  .product2{
+    background-image: url('../week3-4/index-bg.png');
+    /* width: 100%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* padding-bottom:80px ; */
+}
+.container-product2 > h2{
+    font-size: 48px;
+    padding-top: 80px;
+    padding-bottom: 48px;
+    font-weight: bold;
+    text-align: center;
+    color:#FFFFFF;
+}
+.product2-box{
+    display: flex;
+}
+.product2-card{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+.product2-card > h3{
+    background-color: #FFFFFF;
+    font-size: 48px;
+    color:#AA0601;
+    text-align: center;
+    font-weight: 900;
+    padding: 8px 0px;
+}
+
+@media (max-width: 768px){
+    .container-product2{
+        max-width: 100%;
+    }
+    .product2-box{
+        width:100%;
+        flex-wrap: wrap;
+        padding-bottom: 56px;
+    }
+    .product2-card{
+        width: 100%;
+        margin-bottom: 24px;
+        
+    }
+}
+
+
+@media (max-width: 475px){
+    .container-product2 {
+        max-width: 100%;
+    }
+    .product2-card{
+        margin-bottom: 16px;
+        
+    }
+}
+
+
+@media (max-width: 375px) {
+    .container-product2{
+        max-width: 100%;
+    }
+    .container-product2 > h2{
+        font-size: 24px;
+    }
+ 
+
+}
+

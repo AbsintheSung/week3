@@ -1,0 +1,98 @@
+  /* recommend */
+  .recommend{
+    background: #FFFFFF ;
+    padding: 80px 0;
+}
+.container-recommend > h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 48px;
+    color: #650300;
+    text-align: center;
+}
+.recommend-box{
+    /* margin: 0px -12px; */
+    display: flex;
+    
+}
+.recommend-card{
+    width: 25%;
+    padding: 0px 12px;
+    
+}
+
+/* .section-card > img {
+    border-radius: 4px 4px 0px 0px
+} */
+
+.text-box{
+   
+    padding: 16px;
+    box-shadow: 0px 2px 6px #00000029;
+    outline: 1px solid #DEE2E6;
+    border-radius:0px 0px 4px 4px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.text-box > h3{
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.text-box > p {
+    font-size: 16px;
+    /* padding:8px 0px 24px 0px ; */
+    padding-top: 8px;
+    height: 72px;
+    
+}
+.text-box > time{
+    margin-top: 72px;
+    font-size: 14px;
+    color:#707070;
+
+}
+
+@media (max-width: 768px){
+    .container-recommend {
+        max-width: 100%;
+    }
+   .recommend-box{
+        width: 100%;
+        flex-wrap: wrap;
+        margin-bottom: -24px;
+   }
+   .recommend-card{
+    width: 50%;
+    padding-bottom: 24px;
+   }
+  
+}
+
+@media (max-width: 475px){
+    .container-recommend {
+        max-width: 100%;
+    }
+    .recommend{
+        padding: 40px 0px;
+    }
+    .recommend-card{
+        width: 100%;
+    }
+    .container-recommend > h2 {
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .container-recommend{
+        max-width: 100%;
+    }
+
+ 
+
+}
